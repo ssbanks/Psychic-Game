@@ -16,7 +16,7 @@ var lettersGuessed = [];
 //Produces new computer pick at end of each game
 function updateComputerPick(){
 	this.letterToGuess = this.letterChoices[Math.floor(Math.random() * 25)];
-	console.log(this);	
+		
 }
 
 function showGuessLeft() {
